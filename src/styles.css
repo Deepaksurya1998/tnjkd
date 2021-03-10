@@ -1,1 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 /* You can add global styles to this file, and also import other style files */
+
+
+
+.bg-sm {
+    background-size:28% auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   .bg-sm{
+    background-size:100% auto;
+   }
+  }

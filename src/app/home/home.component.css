@@ -1,0 +1,16 @@
+.col {
+ background: rgb(200, 54, 54);
+}
+
+
+.bg-sm {
+    background-size:28% auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   .bg-sm{
+    background-size:100% auto;
+   }
+  }
